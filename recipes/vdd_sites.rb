@@ -25,7 +25,7 @@ if node["vdd"]["sites"]
     end
 
     mysql_connection_info = {
-      :host => "localhost",
+      :host => "127.0.0.1",
       :username => "root",
       :password => node['mysql']['server_root_password']
     }
